@@ -1,33 +1,14 @@
-# Angular 2 QuickStart Source
+# Angular 2 Baseline with All Working NG2 Sample components.
 
-This repository holds the TypeScript source code of the [angular.io quickstart](https://angular.io/docs/ts/latest/quickstart.html),
-the foundation for most of the documentation samples and potentially a good starting point for your application.
+Testing support for writing tests is integrated with Karma.
 
-It's been extended with testing support so you can start writing tests immediately.
-
-**This is not the perfect arrangement for your application. It is not designed for production. 
-It exists primarily to get you started quickly with learning and prototyping in Angular 2**
-
-We are unlikely to accept suggestions about how to grow this QuickStart into something it is not.
-Please keep that in mind before posting issues and PRs.
-
-## Create a new project based on the QuickStart
+## Create a new project based on the baseline
 
 Clone this repo into new project folder (e.g., `my-proj`).
 ```bash
 git clone  https://github.com/angular/quickstart  my-proj
 cd my-proj
 ```
-
-We have no intention of updating the source on `angular/quickstart`.
-Discard everything "git-like" by deleting the `.git` folder.
-```bash
-rm -rf .git
-```
-
-### Create a new git repo
-You could [start writing code](#start-development) now and throw it all away when you're done.
-If you'd rather preserve your work under source control, consider taking the following steps.
 
 Initialize this project as a *local git repo* and make the first commit:
 ```bash
